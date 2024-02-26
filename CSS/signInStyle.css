@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.title-div{
+    /* border: 1px solid black; */
+    color: #1f2833;
+    margin-bottom: px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title-div>h1{
+    margin-bottom: 10px;
+}
+
+.signIn-form{
+    /* border: 2px solid #f41630; */
+    height: 370px;
+    width: 400px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:#b3eccd;
+    color: #1f2833;
+    border: 1px solid #a4ecc5;
+    box-shadow: 0px 0px 18px 10px #e5efea;
+}
+.signIn-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signIn-element{
+    height: 60px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 10px 7px;
+}
+.signIn-div>p{
+    margin: 5px;
+    height: 30px;
+    font-size: 18px;
+}
+.signIn-div>a{
+    margin: 2px;
+    height: 30px;
+}
+.signIn-div>input{
+    padding: 12px;
+    font-size: 13px;
+}
+.signIn-div>button{
+    font-size: 20px;
+    font-weight: 600;
+}
+.signIn-div>button:hover{
+    /* background-color: #6ef7ac; */
+    border: 2px solid #28e07b;
+    color: #28e07b;
+    /* box-shadow: 0px 0px 18px 10px #1f2833 ; */
+}
+.signIn-div>a{
+    text-decoration: none ;
+    color: #1f2833;
+}

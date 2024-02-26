@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.title-div{
+    /* border: 1px solid black; */
+    color: #1f2833;
+    margin-bottom: px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title-div>h1{
+    margin-bottom: 10px;
+}
+.signUp-form{
+    border: 1px solid black;
+    height: 570px;
+    width: 500px;
+}
